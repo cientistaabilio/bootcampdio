@@ -141,7 +141,7 @@ select * from productSupplier;
 
 insert into orders (idOrderClient, orderStatus, orderDescription, sendValue, paymentCASh)
 values
-	(1, 'Confirmado', 'Pedido 1', 100.0, 1),
+    (1, 'Confirmado', 'Pedido 1', 100.0, 1),
     (2, 'Em processamento', 'Pedido #2', 15.0, 0),
     (3, 'Confirmado', 'Pedido #3', 20.2, 0),
     (4, 'Em processamento', 'Pedido #4', 12.8, 1),
@@ -236,15 +236,15 @@ from supplier;
 
 select
     concat(c.Fname, ' ', c.Lname) AS 'Nome Completo',
-    p.Pname AS "Item do Pedido",
-    po.poQuantity AS "Quantidade",
-    o.orderStatus AS "Status do Pedido",
-    o.orderDescription AS "Descrição",
-    o.sendValue AS "Valor Efetuado",
-    pmt.typePayment AS "Forma de Pagamento",
-    pmt.paymentDate AS "Data do Pagamento",
-    d.deliveryStatus AS "Status da Entrega",
-    d.trackingCode AS "RAStreio"
+    p.Pname AS 'Item do Pedido',
+    po.poQuantity AS 'Quantidade',
+    o.orderStatus AS 'Status do Pedido',
+    o.orderDescription AS 'Descrição',
+    o.sendValue AS 'Valor Efetuado',
+    pmt.typePayment AS 'Forma de Pagamento',
+    pmt.paymentDate AS 'Data do Pagamento',
+    d.deliveryStatus AS 'Status da Entrega',
+    d.trackingCode AS 'RAStreio'
 from
     orders o
 INNER JOIN
