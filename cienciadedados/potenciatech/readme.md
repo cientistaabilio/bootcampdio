@@ -58,3 +58,5 @@ Desafio Oficina é composto por 4 arquivos
 5 Lista todos os clientes que deixaram os veiculos, situação da manutenção e se já tem um um mecanico ou mecanica atuando no problema.
 Uma estrutura bem comum em python porem não vejo em SQL com frequencia pelo menos quando vou pesquisar um assunto, me baseie pelo site w3cschools
 ```
+path:*.sql
+path:*.SQL
