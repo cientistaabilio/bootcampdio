@@ -1,3 +1,7 @@
+$ cat .gitattributes
+*.sqp linguist-language=sql
+*.sql linguist-language=plsql
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
