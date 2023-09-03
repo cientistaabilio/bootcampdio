@@ -5,13 +5,12 @@ Desafios python é dividido em 2 versão
 sistema_bancario.py
 sistema_bancari_002.py
 
-### Desafio SQL
+# Desafio SQL
 Desafio 1 já adicionado e é composto por 4 arquivos
 1 Ecommerce_diagrama_ER.png --imagem do diagrama ER
 1 Banco de dados esquema_relacional.sql
 1 queries_desafio.sql
 1 Ecommerce_diagrama_ER.mwb
-
 
 ## Observações:
 
@@ -29,8 +28,7 @@ Desafio 1 já adicionado e é composto por 4 arquivos
 3 Lista de clientes(PF E PJ) com e sem ocultação de campos sensiveis
 
 
-
-# Queries avançadas
+## Queries avançadas
 #### O uso de quaisquers joins necessários para o propósito.
 
 1 Informação completa contendo concat do nome completo, item do pedido, quantidade, status do pedido, descrição do pedido, valor efetuado, forma de pagamento, data do pagamento, status da entrega e o código do rastreio.
@@ -47,3 +45,21 @@ Desafio 1 já adicionado e é composto por 4 arquivos
 6 Relação de nomes dos fornecedores e nomes dos produtos;
 
 7 Lista todos os pedidos que tenham 2 ou mais pedidos.
+
+# Desafio SQL Oficina
+Desafio Oficina é composto por 4 arquivos
+1 oficina.sql aonde está o banco de dados
+2 queries_oficina.sql aonde está as instruções.
+3 oficina_diagrama_ER.png
+4 oficina_diagrama_ER.mwb
+
+1 Pesquisar apenas por uma parte da string rua alameda, estrada do sertão, podemos filtrar por apenas rua com o comando Like.
+
+2 Consulta simples que retorna em forma ascendente pelo sobrenome.
+
+3 Mostra todos que solicitaram mais que 3 pedidos.
+
+4 Lista os clientes e calcula os dias necessários para a manutenção ter ocorrido.
+
+5 Lista todos os clientes que deixaram os veiculos, situação da manutenção e se já tem um um mecanico ou mecanica atuando no problema.
+Uma estrutura bem comum em python porem não vejo em SQL com frequencia pelo menos quando vou pesquisar um assunto, me baseie pelo site w3cschools
